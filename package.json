@@ -42,6 +42,7 @@
     "sinon-chai"
   ],
   "dependencies": {
+    "chai": "^3.5.0",
     "ember-cli-babel": "^5.1.7",
     "ember-cli-node-assets": "0.1.4",
     "ember-sinon": "0.5.1",
