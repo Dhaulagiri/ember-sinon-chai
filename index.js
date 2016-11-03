@@ -1,6 +1,12 @@
-/* jshint node: true */
-'use strict';
-
+/* eslint-env node */
 module.exports = {
-  name: 'ember-sinon-chai'
+  name: 'ember-sinon-chai',
+
+  options: {
+    nodeAssets: {
+      'sinon-chai': {
+        import: [{ path: 'lib/sinon-chai.js', type: 'test' }]
+      }
+    }
+  }
 };
